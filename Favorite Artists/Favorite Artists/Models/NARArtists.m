@@ -11,7 +11,7 @@
 @implementation NARArtists
 
 
-- (instancetype)initWithArtist:(NSString *)artist biography:(NSString *)biography yearFromed:(int)yearFormed {
+- (instancetype)initWithArtist:(NSString *)artist biography:(NSString *)biography yearFormed:(int)yearFormed {
     
     self = [super init];
     if (self) {
@@ -33,7 +33,7 @@
     
     int yearFormed = yearFormedNS.intValue;
     
-    return [self initWithArtist:artist biography:biography yearFromed:yearFormed];
+    return [self initWithArtist:artist biography:biography yearFormed:yearFormed];
 }
 
 
