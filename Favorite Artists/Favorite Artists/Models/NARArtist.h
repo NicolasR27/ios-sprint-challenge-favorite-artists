@@ -12,10 +12,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NARArtist : NSObject
 
+@property (nonatomic, readonly, copy) NSString *artist;
+@property (nonatomic, readonly, copy) NSString *biography;
+@property (nonatomic, readonly) int yearFormed;
 
-@property NSString *name;
-@property NSString *biography;
-@property int year;
+- (instancetype)initWithArtist:(NSString *)artist
+                     biography:(NSString *)biography
+                    yearFromed:(int)yearFormed;
+
+-(instancetype)initWithDictionary:(NSDictionary *)dictionary;
+
 
 
 @end
