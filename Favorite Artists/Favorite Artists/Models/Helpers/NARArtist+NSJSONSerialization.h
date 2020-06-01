@@ -7,14 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-#import"NARArtist.h"
+#import"NARArtists.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NARArtist_NSJSONSerialization : NSObject
-
+@interface NARArtists (NSJSONSerialization)
 
 - (NSDictionary *)toDictionary;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

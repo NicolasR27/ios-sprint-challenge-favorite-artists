@@ -7,7 +7,20 @@
 //
 
 #import "NARArtistDetailViewController.h"
+#import "NARArtists.h"
+#
+
+@interface NARArtistDetailViewController ()
+
+@end
 
 @implementation NARArtistDetailViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+}
+
+
 
 @end

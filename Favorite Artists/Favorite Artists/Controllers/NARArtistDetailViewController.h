@@ -6,11 +6,16 @@
 //  Copyright © 2020 Nicolas Rios. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "NARArtistsController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NARArtistDetailViewController : NSObject
+@interface NARArtistDetailViewController : UIViewController
+
+
+@property (nonatomic, assign)NARArtistsController *artistController;
+@property (nonatomic, assign) NARArtists *artist;
 
 @end
 

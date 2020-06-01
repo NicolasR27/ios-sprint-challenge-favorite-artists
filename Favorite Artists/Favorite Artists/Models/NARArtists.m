@@ -6,9 +6,9 @@
 //  Copyright © 2020 Nicolas Rios. All rights reserved.
 //
 
-#import "NARArtist.h"
+#import "NARArtists.h"
 
-@implementation NARArtist
+@implementation NARArtists
 
 
 - (instancetype)initWithArtist:(NSString *)artist biography:(NSString *)biography yearFromed:(int)yearFormed {

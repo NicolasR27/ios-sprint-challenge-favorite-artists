@@ -6,9 +6,10 @@
 //  Copyright © 2020 Nicolas Rios. All rights reserved.
 //
 
+
 #import "NARArtist+NSJSONSerialization.h"
 
-@implementation NARArtist_NSJSONSerialization
+@implementation NARArtists (NSJSONSerialization)
 
 - (NSDictionary *)toDictionary {
     
@@ -19,7 +20,5 @@
     
     return dictionary;
 }
-
-
 
 @end

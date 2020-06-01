@@ -8,27 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		3E37DBED2484AC2C00F5C872 /* NARArtist+NSJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E37DBEC2484AC2C00F5C872 /* NARArtist+NSJSONSerialization.m */; };
-		3E37DBF32484AE3700F5C872 /* NARArtistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E37DBF22484AE3700F5C872 /* NARArtistDetailViewController.m */; };
-		3E37DBF62484AE5D00F5C872 /* NARTableViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E37DBF52484AE5D00F5C872 /* NARTableViewControllers.m */; };
-		3E37DBF92484AE8000F5C872 /* NARArtistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E37DBF82484AE8000F5C872 /* NARArtistController.m */; };
+		3E37DBF92484AE8000F5C872 /* NARArtistsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E37DBF82484AE8000F5C872 /* NARArtistsController.m */; };
 		3EB972AF248491A500C91B1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB972AE248491A500C91B1B /* AppDelegate.m */; };
 		3EB972B2248491A500C91B1B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB972B1248491A500C91B1B /* SceneDelegate.m */; };
 		3EB972B8248491A500C91B1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB972B6248491A500C91B1B /* Main.storyboard */; };
 		3EB972BA248491A600C91B1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB972B9248491A600C91B1B /* Assets.xcassets */; };
 		3EB972BD248491A600C91B1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB972BB248491A600C91B1B /* LaunchScreen.storyboard */; };
 		3EB972C0248491A600C91B1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB972BF248491A600C91B1B /* main.m */; };
-		3EB972CD2484A3E600C91B1B /* NARArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB972CC2484A3E600C91B1B /* NARArtist.m */; };
+		3EB972CD2484A3E600C91B1B /* NARArtists.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB972CC2484A3E600C91B1B /* NARArtists.m */; };
+		3EB972E22484CEC300C91B1B /* NARArtistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB972E12484CEC300C91B1B /* NARArtistDetailViewController.m */; };
+		3EB972E52484CEF900C91B1B /* NARArtistTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB972E42484CEF900C91B1B /* NARArtistTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E37DBEB2484AC2C00F5C872 /* NARArtist+NSJSONSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NARArtist+NSJSONSerialization.h"; sourceTree = "<group>"; };
 		3E37DBEC2484AC2C00F5C872 /* NARArtist+NSJSONSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NARArtist+NSJSONSerialization.m"; sourceTree = "<group>"; };
-		3E37DBF12484AE3700F5C872 /* NARArtistDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NARArtistDetailViewController.h; sourceTree = "<group>"; };
-		3E37DBF22484AE3700F5C872 /* NARArtistDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NARArtistDetailViewController.m; sourceTree = "<group>"; };
-		3E37DBF42484AE5D00F5C872 /* NARTableViewControllers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NARTableViewControllers.h; sourceTree = "<group>"; };
-		3E37DBF52484AE5D00F5C872 /* NARTableViewControllers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NARTableViewControllers.m; sourceTree = "<group>"; };
-		3E37DBF72484AE8000F5C872 /* NARArtistController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NARArtistController.h; sourceTree = "<group>"; };
-		3E37DBF82484AE8000F5C872 /* NARArtistController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NARArtistController.m; sourceTree = "<group>"; };
+		3E37DBF72484AE8000F5C872 /* NARArtistsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NARArtistsController.h; sourceTree = "<group>"; };
+		3E37DBF82484AE8000F5C872 /* NARArtistsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NARArtistsController.m; sourceTree = "<group>"; };
 		3EB972AA248491A500C91B1B /* Favorite Artists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favorite Artists.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB972AD248491A500C91B1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EB972AE248491A500C91B1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,8 +35,12 @@
 		3EB972BC248491A600C91B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EB972BE248491A600C91B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EB972BF248491A600C91B1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3EB972CB2484A3E600C91B1B /* NARArtist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NARArtist.h; sourceTree = "<group>"; };
-		3EB972CC2484A3E600C91B1B /* NARArtist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NARArtist.m; sourceTree = "<group>"; };
+		3EB972CB2484A3E600C91B1B /* NARArtists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NARArtists.h; sourceTree = "<group>"; };
+		3EB972CC2484A3E600C91B1B /* NARArtists.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NARArtists.m; sourceTree = "<group>"; };
+		3EB972E02484CEC300C91B1B /* NARArtistDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NARArtistDetailViewController.h; sourceTree = "<group>"; };
+		3EB972E12484CEC300C91B1B /* NARArtistDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NARArtistDetailViewController.m; sourceTree = "<group>"; };
+		3EB972E32484CEF900C91B1B /* NARArtistTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NARArtistTableViewController.h; sourceTree = "<group>"; };
+		3EB972E42484CEF900C91B1B /* NARArtistTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NARArtistTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 		3EB972C62484A2A200C91B1B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3EB972CB2484A3E600C91B1B /* NARArtist.h */,
-				3EB972CC2484A3E600C91B1B /* NARArtist.m */,
+				3EB972CB2484A3E600C91B1B /* NARArtists.h */,
+				3EB972CC2484A3E600C91B1B /* NARArtists.m */,
 				3E37DBE82484AAAB00F5C872 /* Helpers */,
 			);
 			path = Models;
@@ -111,8 +111,8 @@
 		3EB972C72484A2D600C91B1B /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3E37DBF72484AE8000F5C872 /* NARArtistController.h */,
-				3E37DBF82484AE8000F5C872 /* NARArtistController.m */,
+				3E37DBF72484AE8000F5C872 /* NARArtistsController.h */,
+				3E37DBF82484AE8000F5C872 /* NARArtistsController.m */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -120,10 +120,10 @@
 		3EB972C82484A31200C91B1B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3E37DBF12484AE3700F5C872 /* NARArtistDetailViewController.h */,
-				3E37DBF22484AE3700F5C872 /* NARArtistDetailViewController.m */,
-				3E37DBF42484AE5D00F5C872 /* NARTableViewControllers.h */,
-				3E37DBF52484AE5D00F5C872 /* NARTableViewControllers.m */,
+				3EB972E02484CEC300C91B1B /* NARArtistDetailViewController.h */,
+				3EB972E12484CEC300C91B1B /* NARArtistDetailViewController.m */,
+				3EB972E32484CEF900C91B1B /* NARArtistTableViewController.h */,
+				3EB972E42484CEF900C91B1B /* NARArtistTableViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -199,13 +199,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EB972E52484CEF900C91B1B /* NARArtistTableViewController.m in Sources */,
 				3E37DBED2484AC2C00F5C872 /* NARArtist+NSJSONSerialization.m in Sources */,
-				3EB972CD2484A3E600C91B1B /* NARArtist.m in Sources */,
+				3EB972CD2484A3E600C91B1B /* NARArtists.m in Sources */,
 				3EB972AF248491A500C91B1B /* AppDelegate.m in Sources */,
-				3E37DBF62484AE5D00F5C872 /* NARTableViewControllers.m in Sources */,
-				3E37DBF92484AE8000F5C872 /* NARArtistController.m in Sources */,
+				3E37DBF92484AE8000F5C872 /* NARArtistsController.m in Sources */,
+				3EB972E22484CEC300C91B1B /* NARArtistDetailViewController.m in Sources */,
 				3EB972C0248491A600C91B1B /* main.m in Sources */,
-				3E37DBF32484AE3700F5C872 /* NARArtistDetailViewController.m in Sources */,
 				3EB972B2248491A500C91B1B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
